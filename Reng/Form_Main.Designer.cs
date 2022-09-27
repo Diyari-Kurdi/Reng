@@ -112,7 +112,7 @@ namespace Reng
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "Reng";
-            this.TransparencyKey = System.Drawing.Color.White;
+            this.TransparencyKey = System.Drawing.Color.Transparent;
             this.Load += new System.EventHandler(this.Form_Main_Load);
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form_Main_MouseClick);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form_Main_MouseMove);
